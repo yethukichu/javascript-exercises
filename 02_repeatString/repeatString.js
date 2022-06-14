@@ -1,4 +1,7 @@
-const repeatString = function() {
+const repeatString = function( s, n) {
+  let a = s;
+  let b = a.repeat(n);
+  return b;
 
 };
 
