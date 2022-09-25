@@ -4,7 +4,7 @@ function Book(title,author,pages,read){
     this.pages=pages;
     this.read=read; 
     this.info=function(){
-        console.log(`The ${title} by ${author}. Tolkien, ${pages} pages, ${read}`)
+        console.log(`The ${this.title} by ${this.author}. Tolkien, ${this.pages} pages, ${this.read}`)
     }
 }
 const book1=new Book("Hobbit","jrr","295","not read yet")
